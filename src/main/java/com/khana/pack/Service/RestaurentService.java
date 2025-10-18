@@ -75,8 +75,9 @@ public class RestaurentService {
 				                                			                        .contact(one.getContact())
 				                                			                        .description(one.getDescription())
 				                                			                        .rating(one.getRating())
+				                                			                        .location(one.getLocation())	
 				                                			                        .build())
-				                                	  
+				                                	  //Location was missing , due to that getting error
 				                                	  
 				                                
 				                                  .collect(Collectors.toList());
