@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name="Resturent_Names")
+//
 public class Restaurent {
 	    @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
